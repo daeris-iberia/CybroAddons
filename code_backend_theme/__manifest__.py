@@ -30,7 +30,7 @@
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
     'website': "https://www.cybrosys.com",
-    "depends": ['base', 'web', 'mail'],
+    "depends": ['base', 'web', 'mail','contacts','utm','sale','account','stock','purchase','calendar','crm','note','website','point_of_sale','mrp','repair','mass_mailing','mass_mailing_sms','project','survey','hr','hr_recruitment','hr_attendance','hr_holidays','hr_expense','maintenance','im_livechat','lunch','fleet','hr_timesheet','event','website_slides','membership','om_hr_payroll','dp_eu_gdpr','daeris_support'],
     "data": [
         'views/icons.xml',
         'views/layout.xml',
