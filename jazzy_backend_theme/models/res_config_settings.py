@@ -16,13 +16,13 @@ class ResConfigSettings(models.TransientModel):
 
     app_bar_color = fields.Char(string='Appbar color',
                                 config_parameter='jazzy_backend_theme.appbar_color',
-                                default='#FFFFFF')
+                                default='#212529')
     primary_accent = fields.Char(string="Navbar color",
                                  config_parameter='jazzy_backend_theme.primary_accent_color',
-                                 default='#004589')
+                                 default='#0874AA')
     secondary_accent = fields.Char(string="Navbar color",
                                    config_parameter='jazzy_backend_theme.secondary_color',
-                                   default='#0C4D9D')
+                                   default='#065379')
 
     kanban_bg_color = fields.Char(string="Kanban Bg Color",
                                   config_parameter='jazzy_backend_theme.kanban_bg_color',
@@ -30,7 +30,7 @@ class ResConfigSettings(models.TransientModel):
 
     primary_hover = fields.Char(string="Hover Primary Color",
                                 config_parameter='jazzy_backend_theme.primary_hover',
-                                default='#00376E')
+                                default='#065379')
     light_hover = fields.Char(string="Light Hover",
                               config_parameter='jazzy_backend_theme.light_hover',
                               default='#ffffff')
