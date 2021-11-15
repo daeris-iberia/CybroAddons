@@ -687,3 +687,10 @@ a {
         padding-right: 10px;
     }
 }
+
+//Loading indicator
+.o_loading_indicator {
+  &.o_loading > span {
+    background-color: var(--primary-accent) !important;
+  }
+}
