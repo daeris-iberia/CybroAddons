@@ -105,6 +105,10 @@
     text-overflow: ellipsis;
     vertical-align: top;
 }
+
+.o_searchview .o_searchview_autocomplete li.o_selection_focus {
+    background-color: var(--primary-accent) !important;
+}
 //module icon
 .oe_module_icon {
     width: 70px;
