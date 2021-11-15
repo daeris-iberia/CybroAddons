@@ -29,7 +29,7 @@
 
                     <div class="nav-container">
                             <div class="app-menu">
-                                <t t-foreach="menuService.getApps()" t-as="app">
+                                <t t-foreach="menuService.getApps()" t-as="app" t-key="app.id">
                                     <a role="menuitem"
                                        t-attf-href="#menu_id={{app.id}}"
                                        class="dropdown-item o_app mt0"
@@ -50,7 +50,7 @@
         </xpath>
     </t>
     <t t-name="jazzy_backend_theme.SearchResults">
-        <t t-foreach="results" t-as="result">
+        <t t-foreach="results" t-as="result" t-key="result.id">
             <div class="search_icons">
             <a t-attf-class="o-menu-search-result dropdown-item col-12 ml-auto mr-auto #{result_first ? 'active' : ''}"
                t-attf-style="background-image:url('data:image/png;base64,#{result.webIconData}')"
@@ -69,7 +69,7 @@
     <div class="sidebar_panel" id="sidebar_panel">
         <div class="sidebar">
             <ul class="sidebar_menu">
-	            <t t-foreach="menuService.getApps()" t-as="app">
+	            <t t-foreach="menuService.getApps()" t-as="app" t-key="app.id">
 		            <li>
 		            	<a role="menuitem"
                            t-attf-href="#menu_id={{app.id}}"
