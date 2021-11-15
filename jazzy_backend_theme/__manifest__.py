@@ -30,14 +30,16 @@
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
     'website': "https://www.cybrosys.com",
-    "depends": ['base', 'web', 'mail','contacts','utm','sale','account','stock','purchase','calendar','crm','note','website','point_of_sale','mrp','repair','mass_mailing','mass_mailing_sms','project','survey','hr','hr_recruitment','hr_attendance','hr_holidays','hr_expense','maintenance','im_livechat','lunch','fleet','hr_timesheet','event','website_slides','membership','om_hr_payroll','dp_eu_gdpr','daeris_support'],
+    "depends": ['resource','base', 'web', 'mail','contacts','utm','sale','account','stock','purchase','calendar','crm','note','website','point_of_sale','mrp','repair','mass_mailing','mass_mailing_sms','project','survey','hr','hr_recruitment','hr_attendance','hr_holidays','hr_expense','maintenance','im_livechat','lunch','fleet','hr_timesheet','event','website_slides','membership','om_hr_payroll','dp_eu_gdpr','daeris_support'],
     "data": [
         'views/style.xml',
         'views/res_config_settings.xml',
         'views/icons.xml',
     ],
     'assets': {
-
+        'web.assets_frontend': [
+            'jazzy_backend_theme/static/src/css/layout_style_frontend.css',
+        ],
         'web.assets_backend': [
                 'jazzy_backend_theme/static/src/layout/style/login.scss',
                 'jazzy_backend_theme/static/src/layout/style/layout_colors.scss',
