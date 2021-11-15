@@ -34,6 +34,7 @@
 }
 .a_app_menu_title{
     color: var(--app-menu-font-color) !important;
+    font-size: 0.78rem !important;
 }
 .o_main_navbar{
     background-color:var(--primary-accent) !important;
@@ -523,7 +524,7 @@ a {
     .app-menu{
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         justify-content: flex-start;
         margin: 0 auto;
         }
