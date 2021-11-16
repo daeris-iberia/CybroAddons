@@ -73,6 +73,7 @@
 		            <li>
 		            	<a role="menuitem"
                            t-attf-href="#menu_id={{app.id}}"
+                           t-attf-title="{{app.name}}"
                            class="nav-link">
 		                	<img class="sidebar_img"
                                  t-attf-src="data:image/png;base64,{{app.webIconData}}"/>
