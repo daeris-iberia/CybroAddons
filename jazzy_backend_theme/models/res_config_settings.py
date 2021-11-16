@@ -19,7 +19,7 @@ class ResConfigSettings(models.TransientModel):
                                 default='#212529')
     primary_accent = fields.Char(string="Navbar color",
                                  config_parameter='jazzy_backend_theme.primary_accent_color',
-                                 default='#0874AA')
+                                 default='#004589')
     secondary_accent = fields.Char(string="Navbar color",
                                    config_parameter='jazzy_backend_theme.secondary_color',
                                    default='#065379')
@@ -30,16 +30,16 @@ class ResConfigSettings(models.TransientModel):
 
     primary_hover = fields.Char(string="Hover Primary Color",
                                 config_parameter='jazzy_backend_theme.primary_hover',
-                                default='#065379')
+                                default='#00376e')
     light_hover = fields.Char(string="Light Hover",
                               config_parameter='jazzy_backend_theme.light_hover',
-                              default='#ffffff')
+                              default='#d5d5d5')
     appbar_text = fields.Char(string="Home Menu Text Color",
                               config_parameter='jazzy_backend_theme.appbar_text',
-                              default='#F7F8F7')
+                              default='#04405E')
     secoundary_hover = fields.Char(string="AppBar Hover",
                                    config_parameter='jazzy_backend_theme.secoundary_hover',
-                                   default='#F2F2F3')
+                                   default='#ffffff')
 
     def config_color_settings(self):
         colors = {}
