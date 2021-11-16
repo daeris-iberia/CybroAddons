@@ -1,0 +1,51 @@
+.o_main_navbar{
+    background-color:var(--primary-accent) !important;
+    border-bottom: 1px solid var(--primary-hover) !important;
+}
+
+body .modal.o_technical_modal .btn:not(.o_btn_preview).btn-primary{
+    background-color:var(--primary-accent) !important;
+    border-color:var(--primary-accent) !important;
+}
+
+#list_website_pages th{
+    background-color:var(--primary-accent) !important;
+}
+
+#list_website_pages td > a.fa{
+    color:var(--primary-accent) !important;
+}
+
+body .modal.o_technical_modal .btn:not(.o_btn_preview).btn-link{
+    color:var(--primary-accent) !important;
+}
+
+body .modal.o_technical_modal .btn:not(.o_btn_preview).btn-secondary{
+    color:var(--primary-accent) !important;
+}
+
+body .modal.o_technical_modal a:not(.o_btn_preview){
+    color:var(--primary-accent) !important;
+}
+
+.o_ace_view_editor .btn:not(.o_btn_preview).btn-primary{
+    background-color:var(--primary-accent) !important;
+    border-color:var(--primary-accent) !important;
+}
+
+.o_ace_view_editor .btn:not(.o_btn_preview).btn-secondary{
+    color:var(--primary-accent) !important;
+}
+
+.o_ace_view_editor .btn:not(.o_btn_preview).btn-link{
+    color:var(--primary-accent) !important;
+}
+
+#oe_main_menu_navbar .dropdown-item.active, #oe_main_menu_navbar .dropdown-item:active{
+    background-color:var(--primary-accent) !important;
+}
+
+#oe_snippets .o_we_website_top_actions .btn.btn-primary{
+    background-color:var(--primary-accent) !important;
+    border-color:var(--primary-accent) !important;
+}
