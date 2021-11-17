@@ -19,7 +19,7 @@ class ResConfigSettings(models.TransientModel):
                                 default='#212529')
     primary_accent = fields.Char(string="Navbar color",
                                  config_parameter='jazzy_backend_theme.primary_accent_color',
-                                 default='#004589')
+                                 default='#0874AA')
     secondary_accent = fields.Char(string="Navbar color",
                                    config_parameter='jazzy_backend_theme.secondary_color',
                                    default='#065379')

@@ -38,7 +38,7 @@
 }
 .o_main_navbar{
     background-color:var(--primary-accent) !important;
-    border-bottom: 1px solid var(--primary-hover) !important;
+    border-bottom: 1px solid var(--primary-accent) !important;
 }
 .dropdown-toggle {
     &:hover{
@@ -61,13 +61,13 @@
     background-color: var(--primary-accent) !important;
 }
 .btn-secondary {
-    color: #fff !important;
-    background-color: var(--secondary-accent) !important;
-    border-color: var(--secondary-accent) !important;
+//    color: #fff !important;
+//    background-color: var(--secondary-accent) !important;
+//    border-color: var(--secondary-accent) !important;
     margin:0 5px 0 0;
-    &:hover{
-        background-color: var(--primary-hover) !important;
-    }
+//    &:hover{
+//        background-color: var(--primary-hover) !important;
+//    }
 }
 
 .o_searchview {
@@ -271,6 +271,10 @@
     border-radius: 10px;
 
 }
+
+.o_form_view .o_horizontal_separator{
+    color: var(--primary-accent);
+}
 //settings
 .settings_tab {
 	background-color: var(--primary-accent) !important;
@@ -359,6 +363,10 @@ button[name="action_uninstall"]:focus {
 a {
     color: var(--primary-accent);
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-accent);
 }
 
 //buttons
@@ -693,4 +701,17 @@ a {
   &.o_loading > span {
     background-color: var(--primary-accent) !important;
   }
+}
+
+//Pie
+.o_field_widget.o_field_percent_pie > .o_pie {
+    background-color: var(--primary-accent) !important;
+}
+
+.o_field_widget.o_field_percent_pie > .o_pie .o_pie_value {
+    color: var(--primary-accent) !important;
+}
+
+.o_field_widget.o_field_percent_pie .o_pie:after {
+    border: 1px solid var(--primary-accent) !important;
 }
