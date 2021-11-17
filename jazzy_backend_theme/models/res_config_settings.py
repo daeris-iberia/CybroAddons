@@ -43,7 +43,7 @@ class ResConfigSettings(models.TransientModel):
 
     def config_color_settings(self):
         colors = {}
-        print("ppp", self.env.user.company_id.background_image)
+        #print("ppp", self.env.user.company_id.background_image)
         colors['full_bg_img'] = self.env.user.company_id.background_image
         colors['appbar_color'] = self.env[
             'ir.config_parameter'].sudo().get_param(
