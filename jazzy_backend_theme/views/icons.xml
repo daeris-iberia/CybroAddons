@@ -2,77 +2,77 @@
 <odoo>
     <data>
         <menuitem id="base.menu_administration" name="Settings"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/settings.png"/>
-        <menuitem id="base.menu_management" name="Apps" web_icon="jazzy_backend_theme,static/src/img/icons/apps.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/settings.svg"/>
+        <menuitem id="base.menu_management" name="Apps" web_icon="jazzy_backend_theme,static/src/img/icons/apps.svg"/>
         <menuitem id="mail.menu_root_discuss" name="Discuss"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/discuss.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/discuss.svg"/>
         <menuitem id="contacts.menu_contacts" name="Contacts"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Contacts.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Contacts.svg"/>
         <menuitem id="utm.menu_link_tracker_root" name="Link Tracker"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/LinkTracker.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/LinkTracker.svg"/>
         <menuitem id="base.menu_board_root" name="Dashboards"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Dashboards.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Dashboards.svg"/>
         <menuitem id="sale.sale_menu_root" name="Sales"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Sales.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Sales.svg"/>
         <menuitem id="account.menu_finance" name="Invoicing"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Invoicing.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Invoicing.svg"/>
         <menuitem id="stock.menu_stock_root" name="Inventory"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Inventory.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Inventory.svg"/>
         <menuitem id="purchase.menu_purchase_root" name="Purchase"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Purchase.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Purchase.svg"/>
         <menuitem id="calendar.mail_menu_calendar" name="Calendar"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Calendar.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Calendar.svg"/>
         <menuitem id="crm.crm_menu_root" name="CRM"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/CRM.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/CRM.svg"/>
         <menuitem id="note.menu_note_notes" name="Note"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Note.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Note.svg"/>
         <menuitem id="website.menu_website_configuration" name="Website"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Website.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Website.svg"/>
         <menuitem id="point_of_sale.menu_point_root" name="Point of Sale"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/PointofSale.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/PointofSale.svg"/>
         <menuitem id="mrp.menu_mrp_root" name="Manufacturing"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Manufacturing.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Manufacturing.svg"/>
         <menuitem id="repair.menu_repair_order" name="Repairs"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Repairs.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Repairs.svg"/>
         <menuitem id="mass_mailing.mass_mailing_menu_root" name="Email Marketing"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/EmailMarketing.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/EmailMarketing.svg"/>
         <menuitem id="mass_mailing_sms.mass_mailing_sms_menu_root" name="SMS Marketing"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/SMSMarketing.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/SMSMarketing.svg"/>
         <menuitem id="project.menu_main_pm" name="Project"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Project.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Project.svg"/>
         <menuitem id="survey.menu_surveys" name="Surveys"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Surveys.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Surveys.svg"/>
         <menuitem id="hr.menu_hr_root" name="Employees"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Employees.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Employees.svg"/>
         <menuitem id="hr_recruitment.menu_hr_recruitment_root" name="Recruitment"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Recruitment.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Recruitment.svg"/>
         <menuitem id="hr_attendance.menu_hr_attendance_root" name="Attendances"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Attendances.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Attendances.svg"/>
         <menuitem id="hr_holidays.menu_hr_holidays_root" name="Time Off"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/TimeOff.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/TimeOff.svg"/>
         <menuitem id="hr_expense.menu_hr_expense_root" name="Expenses"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Expenses.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Expenses.svg"/>
         <menuitem id="maintenance.menu_maintenance_title" name="Maintenance"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Maintenance.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Maintenance.svg"/>
         <menuitem id="im_livechat.menu_livechat_root" name="Live Chat"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/LiveChat.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/LiveChat.svg"/>
         <menuitem id="lunch.menu_lunch" name="Lunch"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Lunch.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Lunch.svg"/>
         <menuitem id="fleet.menu_root" name="Fleet"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Fleet.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Fleet.svg"/>
         <menuitem id="hr_timesheet.timesheet_menu_root" name="Timesheets"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Timesheets.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Timesheets.svg"/>
         <menuitem id="event.event_main_menu" name="Events"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Events.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Events.svg"/>
         <menuitem id="website_slides.website_slides_menu_root" name="eLearning"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/eLearning.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/eLearning.svg"/>
         <menuitem id="membership.menu_association" name="Members"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Members.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Members.svg"/>
         <menuitem id="om_hr_payroll.menu_hr_payroll_root" name="Payroll"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Payroll.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Payroll.svg"/>
         <menuitem id="dp_eu_gdpr.dp_menu_eu_gdpr" name="GDPR"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/GDPR.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/GDPR.svg"/>
         <menuitem id="daeris_support.daeris_support_parent_menu" name="Support"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Support.png"/>
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Support.svg"/>
     </data>
 </odoo>

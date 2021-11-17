@@ -38,7 +38,7 @@
                                        t-att-data-action-id="app.actionID">
                                         <img t-att-title="app.name"
                                              style="width: 70px !important;height: 70px !important;border-radius: 10px !important;margin: 5px 5px 5px 5px;"
-                                             t-attf-src="data:image/png;base64,{{app.webIconData}}"/>
+                                             t-attf-src="data:image/svg+xml;base64,{{app.webIconData}}"/>
                                         <b class="a_app_menu_title"><t t-esc="app.name"/></b>
                                     </a>
                                 </t>
@@ -76,7 +76,7 @@
                            t-attf-title="{{app.name}}"
                            class="nav-link">
 		                	<img class="sidebar_img"
-                                 t-attf-src="data:image/png;base64,{{app.webIconData}}"/>
+                                 t-attf-src="data:image/svg+xml;base64,{{app.webIconData}}"/>
 		            	 </a>
 		            </li>
 		    	</t>
