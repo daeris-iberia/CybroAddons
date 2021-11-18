@@ -53,7 +53,7 @@
         <t t-foreach="results" t-as="result" t-key="result.id">
             <div class="search_icons">
             <a t-attf-class="o-menu-search-result dropdown-item col-12 ml-auto mr-auto #{result_first ? 'active' : ''}"
-               t-attf-style="background-image:url('data:image/png;base64,#{result.webIconData}')"
+               t-attf-style="background-image:url('data:image/svg+xml;base64,#{result.webIconData}')"
                t-attf-href="#menu_id=#{result.id}&amp;action_id=#{result.actionID}"
                t-att-data-menu-id="result.id"
                t-att-data-action-id="result.actionID"
