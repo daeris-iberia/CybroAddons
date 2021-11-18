@@ -49,3 +49,16 @@ body .modal.o_technical_modal a:not(.o_btn_preview){
     background-color:var(--primary-accent) !important;
     border-color:var(--primary-accent) !important;
 }
+
+//Tooltip
+.o_tooltip {
+    &::before {
+        background: radial-gradient(var(--primary-accent), var(--primary-accent));
+    }
+    &.active {
+        border: 3px solid var(--primary-accent) !important;
+        &::before {
+            border-color: var(--primary-accent);
+        }
+    }
+}

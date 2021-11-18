@@ -723,3 +723,16 @@ a:hover {
 .o_field_widget.o_field_percent_pie .o_pie:after {
     border: 1px solid var(--primary-accent) !important;
 }
+
+//Tooltip
+.o_tooltip {
+    &::before {
+        background: radial-gradient(var(--primary-accent), var(--primary-accent));
+    }
+    &.active {
+        border: 3px solid var(--primary-accent) !important;
+        &::before {
+            border-color: var(--primary-accent);
+        }
+    }
+}
