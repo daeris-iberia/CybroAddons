@@ -532,11 +532,11 @@ a:hover {
 .o_MobileMessagingNavbar_tab.o-active{
     color: var(--primary-accent) !important;
 }
-@media (max-width: 768px){
+@media (max-width: 825px){
     .app-menu{
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: flex-start;
         margin: 0 auto;
         }
@@ -560,7 +560,7 @@ a:hover {
         padding-left: 0px !important;
     }
 }
-@media (min-width: 768px){
+@media (min-width: 825px){
     .o_form_view .o_form_sheet_bg > .o_form_sheet {
         margin: 12px auto;
         border-radius: 10px;
@@ -573,7 +573,7 @@ a:hover {
 
 }
 
-@media (max-width:767px){
+@media (max-width:824px){
 
     .o_form_view .o_group{
         width:100% !important;
@@ -690,6 +690,14 @@ a:hover {
     }
 }
 @media (max-width:493px){
+    .app-menu{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
     .o_control_panel .o_cp_bottom_left > .o_cp_action_menus {
         margin-left: 0px;
         padding-right: 10px;
