@@ -38,7 +38,7 @@
     overflow: unset;
 }
 .dropdown-item.o_app.mt0 {
-    flex-basis: 20%;
+    flex-basis: 16%;
     display: flex;
     justify-content: center;
     align-items: center;
