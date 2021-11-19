@@ -206,6 +206,9 @@
     background-color: var(--kanban-bg-color) !important;
 }
 
+.o_kanban_view .o_kanban_record .o_dropdown_kanban .dropdown-toggle:hover{
+    color: white;
+}
 
 //chatter
 .o_Message.o-not-discussion {
@@ -349,6 +352,10 @@ button[name="action_uninstall"]:focus {
     border-color:var(--primary-accent) !important;
 }
 
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    box-shadow: 0 0 0 0.15rem var(--primary-accent) !important
+}
+
 //chat
 
 .o_ChatWindowHeader {
@@ -490,9 +497,11 @@ a:hover {
 .o_form_view .oe_button_box .oe_stat_button .o_button_icon {
     color: var(--primary-accent) !important;
 }
-//.o_required_modifier.o_input, .o_required_modifier .o_input {
-//    background-color: var(--primary-accent) !important;
-//}
+//required fields
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+    background-color: white !important;
+    border: 2px solid var(--primary-accent) !important;
+}
 
 //small icons
 .o_search_panel .o_search_panel_category .o_search_panel_section_icon {
