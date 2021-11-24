@@ -500,7 +500,10 @@ a:hover {
 //required fields
 .o_required_modifier.o_input, .o_required_modifier .o_input {
     background-color: white !important;
-    border: 2px solid var(--primary-accent) !important;
+    //border: 2px solid var(--primary-accent) !important;
+}
+.o_required_modifier {
+    --o-input-border-color: var(--primary-accent) !important;
 }
 
 //small icons
