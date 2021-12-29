@@ -68,11 +68,28 @@
                   web_icon="jazzy_backend_theme,static/src/img/icons/eLearning.svg"/>
         <menuitem id="membership.menu_association" name="Members"
                   web_icon="jazzy_backend_theme,static/src/img/icons/Members.svg"/>
-        <menuitem id="om_hr_payroll.menu_hr_payroll_root" name="Payroll"
-                  web_icon="jazzy_backend_theme,static/src/img/icons/Payroll.svg"/>
         <menuitem id="dp_eu_gdpr.dp_menu_eu_gdpr" name="GDPR"
                   web_icon="jazzy_backend_theme,static/src/img/icons/GDPR.svg"/>
         <menuitem id="daeris_support.daeris_support_parent_menu" name="Support"
                   web_icon="jazzy_backend_theme,static/src/img/icons/Support.svg"/>
+        <menuitem id="hr_payroll.menu_hr_payroll_root" name="Payroll"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Payroll.svg"/>
+        <!--
+        <menuitem id="hrms_dashboard.menu_hrms_dashboard" name="Employee Dashboard"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Dashboard.svg"/>
+        <menuitem id="hr_reward_warning.hr_announcement" name="Employee Announcements"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Announcements.svg"/>
+        <menuitem id="hr_resignation.employee_resignation" name="Employee Resignations"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Resignations.svg"/>
+        <menuitem id="hr_reminder.hr_reminder_menu" name="Employee Reminders"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Reminders.svg"/>
+        <menuitem id="hr_custody.hr_custody_main_menu" name="Employee Custody"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Custody.svg"/>
+        <menuitem id="hr_employee_transfer.menu_employee_transfer" name="Employee Tranfers"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Tranfers.svg"/>
+        <menuitem id="hr_employee_shift.menu_shift" name="Employee Shift"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Shift.svg"/>
+        <menuitem id="ohrms_overtime.overtime_submenu" name="Employee Overtime"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Overtime.svg"/> -->                
     </data>
 </odoo>
