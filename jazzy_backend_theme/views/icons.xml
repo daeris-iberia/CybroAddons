@@ -74,6 +74,8 @@
                   web_icon="jazzy_backend_theme,static/src/img/icons/Support.svg"/>
         <menuitem id="hr_payroll.menu_hr_payroll_root" name="Payroll"
                   web_icon="jazzy_backend_theme,static/src/img/icons/Payroll.svg"/>
+        <menuitem id="daeris_appointment.menu_appointment_root" name="Appointments"
+                  web_icon="jazzy_backend_theme,static/src/img/icons/Appointment.svg"/>
         <!--
         <menuitem id="hrms_dashboard.menu_hrms_dashboard" name="Employee Dashboard"
                   web_icon="jazzy_backend_theme,static/src/img/icons/Dashboard.svg"/>

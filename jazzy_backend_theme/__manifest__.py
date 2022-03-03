@@ -30,7 +30,7 @@
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
     'website': "https://www.cybrosys.com",
-    "depends": ['base','web','mail','contacts','utm','sale','account','stock','purchase','calendar','crm','note','website','point_of_sale','mrp','repair','mass_mailing','mass_mailing_sms','project','survey','hr','hr_recruitment','hr_attendance','hr_holidays','hr_expense','maintenance','im_livechat','lunch','fleet','hr_timesheet','event','website_slides','membership','dp_eu_gdpr','daeris_support','hr_payroll'],#,'hr_custody','om_hr_payroll','hr_resignation','hr_payroll_community','hrms_dashboard','ohrms_overtime','hr_employee_shift','hr_reminder','hr_employee_transfer','hr_reward_warning'
+    "depends": ['base','web','mail','contacts','utm','sale','account','stock','purchase','calendar','crm','note','website','point_of_sale','mrp','repair','mass_mailing','mass_mailing_sms','project','survey','hr','hr_recruitment','hr_attendance','hr_holidays','hr_expense','maintenance','im_livechat','lunch','fleet','hr_timesheet','event','website_slides','membership','dp_eu_gdpr','daeris_support','hr_payroll','daeris_appointment'],#,'hr_custody','om_hr_payroll','hr_resignation','hr_payroll_community','hrms_dashboard','ohrms_overtime','hr_employee_shift','hr_reminder','hr_employee_transfer','hr_reward_warning'
     "data": [
         'views/style.xml',
         'views/res_config_settings.xml',
