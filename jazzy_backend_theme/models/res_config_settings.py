@@ -4,7 +4,7 @@ from odoo import models, fields
 class ResCompany(models.Model):
     _inherit = 'res.company'
 
-    background_image = fields.Binary(string="Background Image", attachment=True)
+    background_image = fields.Binary(string="Jazzy Background Image", attachment=True)
 
 
 class ResConfigSettings(models.TransientModel):
