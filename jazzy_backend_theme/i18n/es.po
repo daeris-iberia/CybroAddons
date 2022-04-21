@@ -53,7 +53,7 @@ msgstr "Appbar color"
 #. module: jazzy_backend_theme
 #: model:ir.model.fields,field_description:jazzy_backend_theme.field_res_company__background_image
 #: model_terms:ir.ui.view,arch_db:jazzy_backend_theme.res_config_cam
-msgid "Background Image"
+msgid "Jazzy Background Image"
 msgstr "Imagen de Fondo"
 
 #. module: jazzy_backend_theme
