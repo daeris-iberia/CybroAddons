@@ -17,10 +17,10 @@ class ResConfigSettings(models.TransientModel):
     app_bar_color = fields.Char(string='Appbar color',
                                 config_parameter='jazzy_backend_theme.appbar_color',
                                 default='#212529')
-    primary_accent = fields.Char(string="Navbar color",
+    primary_accent = fields.Char(string="Navbar Background Color",
                                  config_parameter='jazzy_backend_theme.primary_accent_color',
                                  default='#0874AA')
-    secondary_accent = fields.Char(string="Navbar color",
+    secondary_accent = fields.Char(string="Primary Border Color",
                                    config_parameter='jazzy_backend_theme.secondary_color',
                                    default='#065379')
 
