@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 07:28+0000\n"
-"PO-Revision-Date: 2022-05-04 09:39+0200\n"
+"POT-Creation-Date: 2022-05-04 07:49+0000\n"
+"PO-Revision-Date: 2022-05-04 09:50+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -255,7 +255,7 @@ msgstr "Campo Analizado"
 #. module: odoo_dynamic_dashboard
 #: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_size__col-lg-6
 msgid "Medium"
-msgstr "Media"
+msgstr "Medio"
 
 #. module: odoo_dynamic_dashboard
 #: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__menu_id
@@ -362,7 +362,9 @@ msgstr "Tipo de Gráfico"
 #. module: odoo_dynamic_dashboard
 #: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_menu__group_ids
 msgid "User need to be at least in one of these groups to see the menu"
-msgstr "El usuario debe de estar en por lo menos uno de estos grupos para ver el menú"
+msgstr ""
+"El usuario debe de estar en por lo menos uno de estos grupos para ver el "
+"menú"
 
 #. module: odoo_dynamic_dashboard
 #: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__x_axis
