@@ -62,7 +62,7 @@
         <field name="view_mode">tree,form</field>
         <field name="context">{'default_edit_mode' : True}</field>
     </record>
-    <menuitem name="Blocks" id="menu_dynamic_dashboard_blocks" parent="odoo_dynamic_dashboard.menu_dashboard"
+    <menuitem name="Blocks" id="menu_dynamic_dashboard_blocks" parent="base.menu_reporting_config"
               sequence="1" action="action_dashboard_block"/>
 
 

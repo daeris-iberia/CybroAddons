@@ -35,10 +35,10 @@
         <field name="res_model">dashboard.menu</field>
         <field name="view_mode">tree,form</field>
     </record>
-    <menuitem name="Configuration" id="menu_dynamic_dashboard_configuration" parent="odoo_dynamic_dashboard.menu_dashboard"
-              sequence="3"/>
-    <menuitem name="Dashboards" id="menu_dynamic_dashboard_menu" parent="odoo_dynamic_dashboard.menu_dynamic_dashboard_configuration"
-              sequence="3" action="action_dashboard_menu"/>
+    <!--menuitem name="Configuration" id="menu_dynamic_dashboard_configuration" parent="base.menu_reporting_config"
+              sequence="3"/-->
+    <menuitem name="Dashboard Menu" id="menu_dynamic_dashboard_menu" parent="base.menu_reporting_config"
+              sequence="3" action="action_dashboard_menu" groups="base.group_no_one"/>
 
 
 </odoo>
