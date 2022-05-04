@@ -133,6 +133,7 @@ class DashboardBlock(models.Model):
 
 class DashboardBlockLine(models.Model):
     _name = "dashboard.block.line"
+    _description = "Dashboard Block Line"
 
     sequence = fields.Integer(string="Sequence")
     block_size = fields.Integer(string="Block size")
