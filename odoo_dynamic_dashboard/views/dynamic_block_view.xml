@@ -14,7 +14,7 @@
                     </group>
                     <group>
                         <group>
-                            <field name="model_id" attrs="{'required':[('edit_mode','=', True)]}"/>
+                            <field name="model_id" domain="[('model','in',['sale.order','crm.lead','purchase.order','account.move','stock.picking','daeris.support.ticket'])]" attrs="{'required':[('edit_mode','=', True)]}"/>
                             <field name="client_action" invisible="1"/>
                             <field name="model_name" invisible="1"/>
                             <field name="edit_mode" invisible="1"/>
@@ -29,7 +29,12 @@
                             <field name="type" required="1"/>
                             <field name="graph_type" attrs="{'invisible': [('type','not in', 'graph')]}"/>
                             <field name="graph_size" attrs="{'invisible': [('type','not in', 'graph')]}"/>
-                            <field name="fa_icon" attrs="{'invisible': [('type','not in', 'tile')]}"/>
+                            <label for="fa_icon" attrs="{'invisible': [('type','not in', 'tile')]}"/>
+                            <div>
+                                <field name="fa_icon" attrs="{'invisible': [('type','not in', 'tile')]}"/>
+                                <a href="https://fontawesome.com/v4/cheatsheet/" title="Font Awesome Cheatsheet" class="oe_link"
+                                   target="_blank" attrs="{'invisible': [('type','not in', 'tile')]}">Font Awesome Cheatsheet</a>
+                            </div>
                             <field name="group_by" attrs="{'invisible': [('type','not in', 'graph')], 'required':[('edit_mode','=', True),('type','=','graph')]}"
                                    domain="[('model_id','=',model_id), ('ttype','!=','one2many'), ('store', '=', True)]"/>
                             <field name="tile_color" attrs="{'invisible': [('type','not in', 'tile')]}"
