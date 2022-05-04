@@ -40,6 +40,8 @@ def get_query(self, args, operation, field, group_by=False, apply_ir_rules=False
                 join = ' INNER JOIN %s on "%s".id = "%s".%s' % (
                 relation_model, relation_model, self._table, group_by.name)
                 rec_name = self.env[group_by.relation]._rec_name_fallback()
+                if rec_name == 'name' and group_by.relation == 'res.users':
+                    rec_name = 'login'
                 data = data + ',"%s".%s AS %s' % (relation_model, rec_name, group_by.name)
                 group_by_str = ' Group by "%s".%s' % (relation_model, rec_name)
             else:
