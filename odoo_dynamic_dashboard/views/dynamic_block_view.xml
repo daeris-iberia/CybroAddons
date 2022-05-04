@@ -14,12 +14,14 @@
                     </group>
                     <group>
                         <group>
-                            <field name="model_id" domain="[('model','in',['sale.order','crm.lead','purchase.order','account.move','stock.picking','daeris.support.ticket'])]" attrs="{'required':[('edit_mode','=', True)]}"/>
+                            <field name="model_id" domain="[('model','in',['sale.order','crm.lead','purchase.order','account.move','stock.picking','daeris.support.ticket'])]" attrs="{'required':[('edit_mode','=', True)]}"
+                                   options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
                             <field name="client_action" invisible="1"/>
                             <field name="model_name" invisible="1"/>
                             <field name="edit_mode" invisible="1"/>
                             <field name="operation" attrs="{'required':[('edit_mode','=', True)]}"/>
-                            <field name="measured_field" domain="[('model_id','=',model_id), ('ttype','in',['float','integer','monetary']), ('store', '=', True)]" attrs="{'required':[('edit_mode','=', True)]}"/>
+                            <field name="measured_field" domain="[('model_id','=',model_id), ('ttype','in',['float','integer','monetary']), ('store', '=', True)]" attrs="{'required':[('edit_mode','=', True)]}"
+                                   options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
                             <field name="filter" widget="domain" options="{'model': 'model_name'}"/>
                         </group>
                     </group>
@@ -36,7 +38,8 @@
                                    target="_blank" attrs="{'invisible': [('type','not in', 'tile')]}">Font Awesome Cheatsheet</a>
                             </div>
                             <field name="group_by" attrs="{'invisible': [('type','not in', 'graph')], 'required':[('edit_mode','=', True),('type','=','graph')]}"
-                                   domain="[('model_id','=',model_id), ('ttype','!=','one2many'), ('store', '=', True)]"/>
+                                   domain="[('model_id','=',model_id), ('related','=',False), ('ttype','not in',['one2many','float','integer','monetary','binary','html','datetime']), ('store', '=', True)]"
+                                   options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
                             <field name="tile_color" attrs="{'invisible': [('type','not in', 'tile')]}"
                                    widget="color"/>
                             <field name="text_color" attrs="{'invisible': [('type','not in', 'tile')]}"
