@@ -63,7 +63,8 @@ def get_query(self, args, operation, field, group_by=False, apply_ir_rules=False
             add = ' where'
         else:
             add = ' and'
-        multicompany_condition = '%s "%s".company_id %s %s' % (add, self._table, operator, company)
+        multicompany_condition = '%s ("%s".company_id %s %s' % (add, self._table, operator, company)
+        multicompany_condition = multicompany_condition + ' or "%s".company_id is null)' % (self._table)
     else:
         multicompany_condition = ''
 
