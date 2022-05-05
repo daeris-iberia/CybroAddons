@@ -22,8 +22,10 @@
                             <field name="operation" attrs="{'required':[('edit_mode','=', True)]}"/>
                             <field name="measured_field" domain="[('model_id','=',model_id), ('ttype','in',['float','integer','monetary']), ('store', '=', True)]" attrs="{'required':[('edit_mode','=', True)]}"
                                    options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
-                            <field name="filter" widget="domain" options="{'model': 'model_name'}"/>
                         </group>
+                    </group>
+                    <group colspan="4">
+                        <field name="filter" widget="domain" options="{'model': 'model_name'}"/>
                     </group>
                     <group string="Block Information">
                         <group>
