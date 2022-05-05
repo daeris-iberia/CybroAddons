@@ -14,7 +14,7 @@
                     </group>
                     <group>
                         <group>
-                            <field name="model_id" domain="[('model','in',['sale.order','crm.lead','purchase.order','account.move','stock.picking','daeris.support.ticket'])]" attrs="{'required':[('edit_mode','=', True)]}"
+                            <field name="model_id" domain="[('model','in',['sale.order','crm.lead','purchase.order','account.move','stock.picking','daeris.support.ticket','res.partner'])]" attrs="{'required':[('edit_mode','=', True)]}"
                                    options="{'no_quick_create':True,'no_create_edit':True,'no_open': True,}"/>
                             <field name="client_action" invisible="1"/>
                             <field name="model_name" invisible="1"/>
