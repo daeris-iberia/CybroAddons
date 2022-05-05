@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
     <t t-name="dynamic_dashboard">
-        <div class="container">
+        <div class="container" style="padding-top: 20px">
             <button class="btn btn-primary add_block" data-type="tile" type="button">Add Block
             </button>
             <button class="btn btn-primary add_block" data-type="graph" type="button">Add Graph
