@@ -69,7 +69,7 @@ def get_query(self, args, operation, field, group_by=False, apply_ir_rules=False
         multicompany_condition = ''
 
     query_str = 'SELECT %s FROM ' % data + from_clause + join + where_str + multicompany_condition + group_by_str
-    where_clause_params = map(lambda x: "'" + str(x) + "'", where_clause_params)
+    where_clause_params = map(lambda x: "'" + str(x) + "'" if (type(x) != tuple) else str(x), where_clause_params)
 
     return query_str % tuple(where_clause_params)
 
