@@ -38,7 +38,7 @@ class DashboardBlock(models.Model):
             return False
 
     name = fields.Char(string="Name", help='Name of the block')
-    field_id = fields.Many2one('ir.model.fields', 'Measured Field',domain="[('store', '=', True), ('model_id', '=', model_id), ('ttype', 'in', ['float','integer','monetary'])]")
+    field_id = fields.Many2one('ir.model.fields', 'Field',domain="[('store', '=', True), ('model_id', '=', model_id), ('ttype', 'in', ['float','integer','monetary'])]")
     fa_icon = fields.Char(string="Icon")
     graph_size = fields.Selection(
         selection=[("col-lg-4", "Small"), ("col-lg-6", "Medium"), ("col-lg-12", "Large")],
@@ -63,7 +63,7 @@ class DashboardBlock(models.Model):
     fa_color = fields.Char(string="Icon Color", help='Icon Color of Tile')
     filter = fields.Char(string="Filter")
     model_id = fields.Many2one('ir.model', 'Model')
-    model_name = fields.Char(related='model_id.model', readonly=True)
+    model_name = fields.Char(related='model_id.model', string="Model Name", readonly=True)
 
     filter_by = fields.Many2one("ir.model.fields", string=" Filter By")
     filter_values = fields.Char(string="Filter Values")
@@ -99,8 +99,8 @@ class DashboardBlock(models.Model):
                                                                group_by=rec.group_by)
                     self._cr.execute(query)
                     records = self._cr.dictfetchall()
-                    print(query,"query")
-                    print(records,"records")
+                    #print(query,"query")
+                    #print(records,"records")
                     x_axis = []
                     for record in records:
                         x_axis.append(record.get(rec.group_by.name))
@@ -127,12 +127,13 @@ class DashboardBlock(models.Model):
                     records[0]['value'] = val
                     vals.update(records[0])
             block_id.append(vals)
-        print(block_id,"dhressssssssssss")
+        #print(block_id,"dhressssssssssss")
         return block_id
 
 
 class DashboardBlockLine(models.Model):
     _name = "dashboard.block.line"
+    _description = "Dashboard Block Line"
 
     sequence = fields.Integer(string="Sequence")
     block_size = fields.Integer(string="Block size")

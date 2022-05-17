@@ -40,6 +40,8 @@ def get_query(self, args, operation, field, group_by=False, apply_ir_rules=False
                 join = ' INNER JOIN %s on "%s".id = "%s".%s' % (
                 relation_model, relation_model, self._table, group_by.name)
                 rec_name = self.env[group_by.relation]._rec_name_fallback()
+                if rec_name == 'name' and group_by.relation == 'res.users':
+                    rec_name = 'login'
                 data = data + ',"%s".%s AS %s' % (relation_model, rec_name, group_by.name)
                 group_by_str = ' Group by "%s".%s' % (relation_model, rec_name)
             else:
@@ -61,12 +63,13 @@ def get_query(self, args, operation, field, group_by=False, apply_ir_rules=False
             add = ' where'
         else:
             add = ' and'
-        multicompany_condition = '%s "%s".company_id %s %s' % (add, self._table, operator, company)
+        multicompany_condition = '%s ("%s".company_id %s %s' % (add, self._table, operator, company)
+        multicompany_condition = multicompany_condition + ' or "%s".company_id is null)' % (self._table)
     else:
         multicompany_condition = ''
 
     query_str = 'SELECT %s FROM ' % data + from_clause + join + where_str + multicompany_condition + group_by_str
-    where_clause_params = map(lambda x: "'" + str(x) + "'", where_clause_params)
+    where_clause_params = map(lambda x: "'" + str(x) + "'" if (type(x) != tuple) else str(x), where_clause_params)
 
     return query_str % tuple(where_clause_params)
 

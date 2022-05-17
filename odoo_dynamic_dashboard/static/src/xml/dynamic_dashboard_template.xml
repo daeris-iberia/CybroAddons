@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
     <t t-name="dynamic_dashboard">
-        <div class="container">
+        <div class="container" style="padding-top: 20px">
             <button class="btn btn-primary add_block" data-type="tile" type="button">Add Block
             </button>
             <button class="btn btn-primary add_block" data-type="graph" type="button">Add Graph
@@ -24,9 +24,9 @@
                     <i t-att-class="widget.icon"></i>
                 </div>
                 <div class="tile-container__status-container">
-                    <h2 class="status-container__title"><t t-esc="widget.name"/></h2>
+                    <h2 t-att-style="widget.text_color" class="status-container__title"><t t-esc="widget.name"/></h2>
                     <div class="status-container__figures d-flex flex-wrap align-items-baseline">
-                        <h3 class="mb-0 mb-md-1 mb-lg-0 mr-1"><t t-esc="widget.value"/></h3>
+                        <h3 t-att-style="widget.text_color" class="mb-0 mb-md-1 mb-lg-0 mr-1"><t t-esc="widget.value"/></h3>
                     </div>
                 </div>
             </div>
@@ -38,10 +38,10 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <title>Dashboard</title>
-            <link rel="stylesheet"
+            <!--link rel="stylesheet"
                   href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
                   integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="
-                  crossorigin="anonymous"/>
+                  crossorigin="anonymous"/-->
         </head>
         <div style="padding-bottom:30px" t-att-class="widget.cols +' col-4 block'" t-att-data-id="widget.id">
                 <div class="card">

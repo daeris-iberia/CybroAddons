@@ -32,7 +32,7 @@ class DynamicDashboard(http.Controller):
         type = kw.get('type')
         action_id = kw.get('action_id')
         tile_id = request.env['dashboard.block'].sudo().create({
-            'name': 'New Block',
+            'name': _('New Block'),
             'type': type,
             'tile_color': '#1f6abb',
             'text_color': '#FFFFFF',

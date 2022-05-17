@@ -1,0 +1,386 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_dynamic_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-04 12:12+0000\n"
+"PO-Revision-Date: 2022-05-04 14:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__filter_by
+msgid " Filter By"
+msgstr " Filtrar Por"
+
+#. module: odoo_dynamic_dashboard
+#. openerp-web
+#: code:addons/odoo_dynamic_dashboard/static/src/xml/dynamic_dashboard_template.xml:0
+#, python-format
+msgid "Add Block"
+msgstr "Añadir Bloque"
+
+#. module: odoo_dynamic_dashboard
+#. openerp-web
+#: code:addons/odoo_dynamic_dashboard/static/src/xml/dynamic_dashboard_template.xml:0
+#, python-format
+msgid "Add Graph"
+msgstr "Añadir Gráfico"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__operation__avg
+msgid "Average"
+msgstr "Promedio"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_type__bar
+msgid "Bar"
+msgstr "Barra"
+
+#. module: odoo_dynamic_dashboard
+#: model_terms:ir.ui.view,arch_db:odoo_dynamic_dashboard.dashboard_block_form_view
+msgid "Block Information"
+msgstr "Información del Bloque"
+
+#. module: odoo_dynamic_dashboard
+#: model_terms:ir.ui.view,arch_db:odoo_dynamic_dashboard.dashboard_block_form_view
+msgid "Block Name"
+msgstr "Nombre del Bloque"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__block_size
+msgid "Block size"
+msgstr "Tamaño del bloque"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.ui.menu,name:odoo_dynamic_dashboard.menu_dynamic_dashboard_blocks
+msgid "Blocks"
+msgstr "Bloque del Cuadro de Mandos"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__type__graph
+msgid "Chart"
+msgstr "Gráfico"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__graph_type
+msgid "Chart Type"
+msgstr "Tipo de Gráfico"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__client_action
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__client_action
+msgid "Client Action"
+msgstr "Acción de Cliente"
+
+#. module: odoo_dynamic_dashboard
+#. openerp-web
+#: code:addons/odoo_dynamic_dashboard/static/src/xml/dynamic_dashboard_template.xml:0
+#, python-format
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__operation__count
+msgid "Count"
+msgstr "Contador"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__create_uid
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__create_uid
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__create_date
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__create_date
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.actions.client,name:odoo_dynamic_dashboard.action_dynamic_dashboard
+msgid "Dashboard"
+msgstr "Cuadro de Mando"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.actions.act_window,name:odoo_dynamic_dashboard.action_dashboard_block
+msgid "Dashboard Block"
+msgstr "Bloque del Cuadro de Mandos"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model,name:odoo_dynamic_dashboard.model_dashboard_block_line
+msgid "Dashboard Block Line"
+msgstr "Línea del Bloque del Cuadro de Mandos"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model,name:odoo_dynamic_dashboard.model_dashboard_block
+msgid "Dashboard Blocks"
+msgstr "Bloques del Cuadro de Mandos"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.actions.act_window,name:odoo_dynamic_dashboard.action_dashboard_menu
+#: model:ir.model,name:odoo_dynamic_dashboard.model_dashboard_menu
+#: model:ir.ui.menu,name:odoo_dynamic_dashboard.menu_dynamic_dashboard_menu
+msgid "Dashboard Menu"
+msgstr "Menú del Cuadro de Mandos"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.ui.menu,name:odoo_dynamic_dashboard.menu_dynamic_dashboard
+msgid "Dashboards"
+msgstr "Cuadros de Mando Dinámicos"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__display_name
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__display_name
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__display_name
+msgid "Display Name"
+msgstr "Nombre Mostrado"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_type__doughnut
+msgid "Doughnut"
+msgstr "Donut"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__edit_mode
+msgid "Edit Mode"
+msgstr "Modo Edición"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__field_id
+msgid "Field"
+msgstr "Campo"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__group_by
+msgid "Field value for Y-Axis"
+msgstr "Valor del campo para el eje Y"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__filter
+msgid "Filter"
+msgstr "Filtro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__filter_values
+msgid "Filter Values"
+msgstr "Filtrar Valores"
+
+#. module: odoo_dynamic_dashboard
+#: model_terms:ir.ui.view,arch_db:odoo_dynamic_dashboard.dashboard_block_form_view
+msgid "Font Awesome Cheatsheet"
+msgstr "Referencia de iconos Font Awesome"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__graph_size
+msgid "Graph Size"
+msgstr "Tamaño del Gráfico"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__group_by
+msgid "Group by(Y-Axis)"
+msgstr "Agrupar por (Eje Y)"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__group_ids
+msgid "Groups"
+msgstr "Grupos"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__id
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__id
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__id
+msgid "ID"
+msgstr ""
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__fa_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__fa_color
+msgid "Icon Color"
+msgstr "Color del Icono"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__fa_color
+msgid "Icon Color of Tile"
+msgstr "Color de Icono del Recuadro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_size__col-lg-12
+msgid "Large"
+msgstr "Grande"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block____last_update
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line____last_update
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__write_uid
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__write_uid
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__write_date
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__write_date
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_type__line
+msgid "Line"
+msgstr "Línea"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__measured_field
+msgid "Measured Field"
+msgstr "Campo Analizado"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_size__col-lg-6
+msgid "Medium"
+msgstr "Medio"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__menu_id
+msgid "Menu"
+msgstr "Menú"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__model_id
+msgid "Model"
+msgstr "Modelo"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__model_name
+msgid "Model Name"
+msgstr "Nombre del Modelo"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__name
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_menu__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__name
+msgid "Name of the block"
+msgstr "Nombre del bloque"
+
+#. module: odoo_dynamic_dashboard
+#: code:addons/odoo_dynamic_dashboard/controllers/main.py:0
+#, python-format
+msgid "New Block"
+msgstr "Nuevo Bloque"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__operation
+msgid "Operation"
+msgstr "Operación"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_type__pie
+msgid "Pie"
+msgstr "Tarta"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__tile_color
+msgid "Primary Color of Tile"
+msgstr "Color Primario del Recuadro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_type__radar
+msgid "Radar"
+msgstr ""
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__sequence
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block_line__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__graph_size__col-lg-4
+msgid "Small"
+msgstr "Pequeño"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__operation__sum
+msgid "Sum"
+msgstr "Suma"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__text_color
+msgid "Text Color"
+msgstr "Color del Texto"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__text_color
+msgid "Text Color of Tile"
+msgstr "Color de Texto del Recuadro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields.selection,name:odoo_dynamic_dashboard.selection__dashboard_block__type__tile
+msgid "Tile"
+msgstr "Recuadro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__tile_color
+msgid "Tile Color"
+msgstr "Color del Recuadro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__operation
+msgid "Tile Operation that needs to bring values for tile"
+msgstr "La Operación del Recuadro que necesita traer valores para el recuadro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__type
+msgid "Type of Block ie, Chart or Tile"
+msgstr "Tipo de Bloque, p. ej. Gráfico o Recuadro"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_block__graph_type
+msgid "Type of Chart"
+msgstr "Tipo de Gráfico"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,help:odoo_dynamic_dashboard.field_dashboard_menu__group_ids
+msgid "User need to be at least in one of these groups to see the menu"
+msgstr ""
+"El usuario debe de estar en por lo menos uno de estos grupos para ver el "
+"menú"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__x_axis
+msgid "X-Axis"
+msgstr "Eje X"
+
+#. module: odoo_dynamic_dashboard
+#: model:ir.model.fields,field_description:odoo_dynamic_dashboard.field_dashboard_block__y_axis
+msgid "Y-Axis"
+msgstr "Eje Y"
