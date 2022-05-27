@@ -54,6 +54,10 @@ class Users(models.Model):
                 activity['icon'] = '/jazzy_backend_theme/static/src/img/icons/Sales.svg'
             elif activity['model'] == 'daeris.support.ticket':
                 activity['icon'] = '/jazzy_backend_theme/static/src/img/icons/Support.svg'
+            elif activity['model'] == 'event.event':
+                activity['icon'] = '/jazzy_backend_theme/static/src/img/icons/Events.svg'
+            elif activity['model'] == 'account.move':
+                activity['icon'] = '/jazzy_backend_theme/static/src/img/icons/Invoicing.svg'
             else:
                 continue
         return activities
