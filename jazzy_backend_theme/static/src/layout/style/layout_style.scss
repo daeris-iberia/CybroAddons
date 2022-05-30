@@ -40,11 +40,11 @@
     background-color:var(--primary-accent) !important;
     border-bottom: 1px solid var(--primary-accent) !important;
 }
-.dropdown-toggle {
-    &:hover{
-        background: var(--primary-hover) !important;
-    }
-}
+//.dropdown-toggle {
+//    &:hover{
+//        background: var(--primary-hover) !important;
+//    }
+//}
 
 .o-menu-search-result.dropdown-item.col-12.ml-auto.mr-auto {
 
@@ -748,20 +748,12 @@ a:hover {
         }
     }
 }
-//Progressbar complete
-.o_progressbar .o_progress .o_progressbar_complete{
+
+//Discuss Sidebar
+.o_DiscussSidebarMailbox_counter {
     background-color: var(--primary-accent) !important;
 }
-// Widget Image control
-.o_form_image_controls{
+
+.o_DiscussSidebarCategoryItem_counter {
     background-color: var(--primary-accent) !important;
-}
-// texto primario
-.text-primary{
-    color: var(--primary-accent) !important;   
-}
-//Copy Link
-.o_field_widget.o_field_copy{
-    border: 1px solid var(--primary-accent);
-    color: var(--primary-accent);
 }
