@@ -757,3 +757,20 @@ a:hover {
 .o_DiscussSidebarCategoryItem_counter {
     background-color: var(--primary-accent) !important;
 }
+
+//Progressbar complete
+.o_progressbar .o_progress .o_progressbar_complete{
+    background-color: var(--primary-accent) !important;
+}
+// Widget Image control
+.o_form_image_controls{
+    background-color: var(--primary-accent) !important;
+}
+// texto primario
+.text-primary{
+    color: var(--primary-accent) !important;   
+}
+//Copy Link
+.o_field_widget.o_field_copy{
+    border: 1px solid var(--primary-accent);
+    color: var(--primary-accent);
