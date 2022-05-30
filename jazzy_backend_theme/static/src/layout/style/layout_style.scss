@@ -775,3 +775,7 @@ a:hover {
     border: 1px solid var(--primary-accent);
     color: var(--primary-accent);
 }
+//Website Dashboards
+.o_dashboards .o_website_dashboard div.o_box h2, .o_dashboards .o_website_dashboard div.o_box h4{
+    color: var(--primary-accent);
+}
