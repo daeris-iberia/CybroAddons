@@ -757,3 +757,8 @@ a:hover {
 .o_DiscussSidebarCategoryItem_counter {
     background-color: var(--primary-accent) !important;
 }
+
+//Export data window
+.o_web_client .o_export .o_left_panel .o_export_tree_item.o_selected > .o_tree_column {
+    background-color: var(--primary-accent) !important;
+}
