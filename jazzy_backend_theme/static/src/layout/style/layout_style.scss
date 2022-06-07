@@ -758,6 +758,28 @@ a:hover {
     background-color: var(--primary-accent) !important;
 }
 
+//Progressbar complete
+.o_progressbar .o_progress .o_progressbar_complete{
+    background-color: var(--primary-accent) !important;
+}
+// Widget Image control
+.o_form_image_controls{
+    background-color: var(--primary-accent) !important;
+}
+// texto primario
+.text-primary{
+    color: var(--primary-accent) !important;
+}
+//Copy Link
+.o_field_widget.o_field_copy{
+    border: 1px solid var(--primary-accent);
+    color: var(--primary-accent);
+}
+//Website Dashboards
+.o_dashboards .o_website_dashboard div.o_box h2, .o_dashboards .o_website_dashboard div.o_box h4{
+    color: var(--primary-accent);
+}
+
 //Export data window
 .o_web_client .o_export .o_left_panel .o_export_tree_item.o_selected > .o_tree_column {
     background-color: var(--primary-accent) !important;
