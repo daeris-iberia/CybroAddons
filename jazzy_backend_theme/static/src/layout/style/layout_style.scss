@@ -766,7 +766,7 @@ a:hover {
 .o_form_image_controls{
     background-color: var(--primary-accent) !important;
 }
-// texto primario
+// Text Primary
 .text-primary{
     color: var(--primary-accent) !important;
 }
@@ -782,5 +782,10 @@ a:hover {
 
 //Export data window
 .o_web_client .o_export .o_left_panel .o_export_tree_item.o_selected > .o_tree_column {
+    background-color: var(--primary-accent) !important;
+}
+
+// Checkbox
+div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input:checked + label.custom-control-label::before {
     background-color: var(--primary-accent) !important;
 }
