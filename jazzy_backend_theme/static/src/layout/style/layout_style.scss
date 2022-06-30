@@ -789,3 +789,8 @@ a:hover {
 div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input:checked + label.custom-control-label::before {
     background-color: var(--primary-accent) !important;
 }
+
+//Expenses
+.o_content .o_expense_purple {
+    color: var(--primary-accent) !important;
+}
