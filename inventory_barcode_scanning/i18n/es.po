@@ -27,7 +27,7 @@ msgstr "Código de barras"
 #: code:addons/inventory_barcode_scanning/models/stock_picking.py:0
 #, python-format
 msgid "No product is available for this barcode"
-msgstr "No hay ningún producto disponible para este código de barras"
+msgstr "No hay ningún producto disponible para este código de barras."
 
 #. module: inventory_barcode_scanning
 #: model:ir.model,name:inventory_barcode_scanning.model_stock_move
@@ -41,8 +41,8 @@ msgid ""
 "This product is not available in the order.You can add this product by "
 "clicking the \"Add an item\" and scan"
 msgstr ""
-"Este producto no está disponible en el pedido. Puedes agregar este "
-"producto haciendo clic en \"Agregar un artículo\" y escanear"
+"Este producto no está disponible en el listado. Puedes agregar este "
+"producto haciendo clic en \"Agregar línea\" y escanear."
 
 #. module: inventory_barcode_scanning
 #: model:ir.model,name:inventory_barcode_scanning.model_stock_picking
