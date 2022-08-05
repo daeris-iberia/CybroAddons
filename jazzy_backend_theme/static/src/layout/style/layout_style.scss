@@ -803,8 +803,14 @@ div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input
 //Forum
 .o_wforum_forum_card_bg {
     background-image: linear-gradient(120deg, var(--primary-accent), var(--primary-hover)) !important;
+
+    #o_wforum_forums_index_list & {
+        min-height: 100px;
+    }
 }
 
 .o_wforum_elearning_navtabs_container {
-    background-color: var(--primary-accent) !important;
+    @include media-breakpoint-up(md) {
+        background-color: var(--primary-accent) !important;
+    }
 }
