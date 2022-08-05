@@ -799,3 +799,12 @@ div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input
 .o_timeoff_calendar .o_content .o_timeoff_purple {
     color: var(--primary-accent) !important;
 }
+
+//Forum
+.o_wforum_forum_card_bg {
+    background-image: linear-gradient(120deg, var(--primary-accent), var(--primary-hover));
+}
+
+.o_wforum_elearning_navtabs_container {
+    background-color: var(--primary-accent);
+}
