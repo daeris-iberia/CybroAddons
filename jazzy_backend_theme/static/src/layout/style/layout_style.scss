@@ -766,9 +766,9 @@ a:hover {
 .o_form_image_controls{
     background-color: var(--primary-accent) !important;
 }
-// texto primario
+// Text Primary
 .text-primary{
-    color: var(--primary-accent) !important;   
+    color: var(--primary-accent) !important;
 }
 //Copy Link
 .o_field_widget.o_field_copy{
@@ -778,4 +778,24 @@ a:hover {
 //Website Dashboards
 .o_dashboards .o_website_dashboard div.o_box h2, .o_dashboards .o_website_dashboard div.o_box h4{
     color: var(--primary-accent);
+}
+
+//Export data window
+.o_web_client .o_export .o_left_panel .o_export_tree_item.o_selected > .o_tree_column {
+    background-color: var(--primary-accent) !important;
+}
+
+// Checkbox
+div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input:checked + label.custom-control-label::before {
+    background-color: var(--primary-accent) !important;
+}
+
+//Expenses
+.o_content .o_expense_purple {
+    color: var(--primary-accent) !important;
+}
+
+//Time Off
+.o_timeoff_calendar .o_content .o_timeoff_purple {
+    color: var(--primary-accent) !important;
 }
