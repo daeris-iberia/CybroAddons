@@ -803,3 +803,8 @@ div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input
 .o_timeoff_calendar .o_content .o_timeoff_purple {
     color: var(--primary-accent) !important;
 }
+// Desplegable selector de campos
+.o_field_selector.o_edit_mode > .o_field_selector_popover .o_field_selector_popover_header,
+.o_field_selector.o_edit_mode > .o_field_selector_popover .o_field_selector_popover_footer{
+    background: var(--primary-accent) !important;
+}
