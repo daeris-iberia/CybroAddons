@@ -766,6 +766,16 @@ a:hover {
 .progress-bar{
     background-color: var(--primary-accent) !important;   
 }
+//
+.bg-danger, .o_status.o_status_red, .o_status_red.o_calendar_invitation, .o_status_red.o_status_bubble{
+    #dc3545 !important;
+}
+.bg-success, .o_status.o_status_green, .o_status_green.o_calendar_invitation, .o_status_green.o_status_bubble{
+    background-color: #28a745 !important;
+}
+.bg-200, .bg-muted{
+    background-color: #e9ecef !important;
+}
 // Widget Image control
 .o_form_image_controls{
     background-color: var(--primary-accent) !important;
