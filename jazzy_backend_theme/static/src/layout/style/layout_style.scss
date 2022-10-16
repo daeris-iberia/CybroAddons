@@ -826,3 +826,7 @@ div.o_boolean_toggle.custom-control.custom-checkbox > input.custom-control-input
 .datepicker .table-sm > tbody > tr > td.active {
   background-color: var(--primary-accent) !important;
 }
+//Color de fondo de la barra de progreso de la conciliación
+.progress .progress-reconciliation{
+    background-color: var(--primary-accent) !important;
+}
