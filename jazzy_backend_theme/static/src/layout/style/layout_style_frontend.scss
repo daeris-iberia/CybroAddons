@@ -95,3 +95,14 @@ body .modal.o_technical_modal a:not(.o_btn_preview){
         background-color: var(--primary-accent) !important;
     }
 }
+
+//Website menu
+@media (max-width: 767.98px) {
+    #oe_main_menu_navbar.o_main_navbar .dropdown.show, #oe_main_menu_navbar.o_main_navbar .dropdown.show .dropdown-toggle, #oe_main_menu_navbar.o_main_navbar .dropdown.show .dropdown-item, #oe_main_menu_navbar.o_main_navbar .dropdown.show .dropdown-menu {
+        background-color: #085378 !important;
+    }
+
+    #oe_main_menu_navbar.o_main_navbar .o_menu_sections {
+        background-color: #085378 !important;
+    }
+}
